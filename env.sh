@@ -18,5 +18,4 @@ export CXX=$TOOLCHAIN/bin/$TARGET$API-clang++
 export LD=$TOOLCHAIN/bin/$TARGET-ld
 export RANLIB=$TOOLCHAIN/bin/$ABI-ranlib
 export STRIP=$TOOLCHAIN/bin/$ABI-strip
-
 export PATH=$TOOLCHAIN/bin:$PATH
